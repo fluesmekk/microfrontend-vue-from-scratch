@@ -17,6 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+/* TODO: Group the styling based on the id of the apps to remove the bleed */
 header {
   line-height: 1.5;
   max-height: 100vh;
