@@ -11,7 +11,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
     federation({
-      name: 'remote1',
+      name: 'remote',
       manifest: true,
       exposes: {
         './export-app': './src/export-app',
